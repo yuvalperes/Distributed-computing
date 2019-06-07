@@ -7,7 +7,8 @@ Here we implement the simple repeated majority (with three states of memory) pro
 
 ![Correct Nodes](https://github.com/yuvalperes/Distributed-computing/blob/master/correct_fraction_n%3D1000.png)
 
-![Wrong Nodes](https://github.com/yuvalperes/Distributed-computing/blob/master/wrong_fraction_n%3D1000.png)
+Fraction of incorrect nodes over time:
+![Wrong Nodes](https://github.com/yuvalperes/Distributed-computing/blob/master/wrong_fraction_n%3D1000.jpg)
 
 - <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2008-114.pdf">Using Three States for Binary Consensus on Complete Graphs</a>, by Etienne Perron, Dinkar Vasuvedan, Milan Vojnovic
 - <a href="http://www.cs.yale.edu/homes/aspnes/papers/approximate-majority-journal.pdf">A Simple Population Protocol for Fast Robust Approximate Majority</a>, by Dana Angluin, James Aspnes, David Eisenstat
