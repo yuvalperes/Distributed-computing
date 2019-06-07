@@ -6,9 +6,9 @@ The goal is to design protocols that achieve consensus (i.e. the initial majorit
 Here we implement the simple repeated majority protocol which only requires three memory states and has been extensively studied (see references below). 
 
 Briefly, the system dynamics are: each node keeps track of a state which is either 0, 1, or ?. Initially each node has state 0 or 1. In each round, a node gets selected uniformly at random and is matched with a random other node. The nodes that get matched exchange state and update their own state based on this communication. Let U, V, and S represent, respectively, the set of nodes storing 0, 1, and ?
-    - If a  node in U (resp. V) contacts a node in U, S (resp. V, S), then it does not update its value. 
-    - If a node in U (resp. V) contacts a node in V (resp. U), it updates its value to ? (resp. ?).  
-    - If a  node in S contacts a node in U (resp. V), then it updates it’s value to 1 (resp. 0). 
+- If a  node in U (resp. V) contacts a node in U, S (resp. V, S), then it does not update its value. 
+- If a node in U (resp. V) contacts a node in V (resp. U), it updates its value to ? (resp. ?).  
+- If a  node in S contacts a node in U (resp. V), then it updates it’s value to 1 (resp. 0). 
     
 Some images from the simulation with the fraction of correct (left) and wrong (right) nodes over time. The remaining nodes have the "?" state.
 
